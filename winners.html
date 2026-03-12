@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winners | Nobel Prize Portal</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="icon" href="./assets/images/logo.png" type="image/icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background: linear-gradient(135deg, #4A0000, #630000, #800000);">
+        <div class="container-fluid px-lg-5">
+
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/images/logo.png" alt="Logo" class="d-inline-block align-top" style="height: 50px;">
+                <span class="fw-normal fs-4">Nobel Prize</span>
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navContent"
+                aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item px-2">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown px-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="nobelDrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Nobel Prize
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark border-0 shadow" aria-labelledby="nobelDrop">
+                            <li><a class="dropdown-item" href="history.html">History</a></li>
+                            <li><a class="dropdown-item active" href="winners.html">Winners</a></li>
+                            <li><a class="dropdown-item" href="nominations.html">Nominations</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown px-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="galleryDrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Gallery
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark border-0 shadow" aria-labelledby="galleryDrop">
+                            <li><a class="dropdown-item" href="images.html">Images</a></li>
+                            <li><a class="dropdown-item" href="videos.html">Videos</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <header class="text-center py-5 mb-5 text-white rounded-3 shadow" style="background: linear-gradient(135deg, #4A0000, #630000, #800000);">
+            <h1 class="display-4 fw-bold">Nobel Prize Winners</h1>
+            <p class="lead">The last 20 years of excellence across all subjects</p>
+        </header>
+
+        <div class="accordion shadow-sm" id="nobelAccordion">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button fw-bold fs-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#physicsCollapse">
+                        Physics
+                    </button>
+                </h2>
+                <div id="physicsCollapse" class="accordion-collapse collapse show" data-bs-parent="#nobelAccordion">
+                    <div class="accordion-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0">
+                                <thead class="table-warning">
+                                    <tr>
+                                        <th style="width: 15%">Year</th>
+                                        <th style="width: 35%">Winners</th>
+                                        <th style="width: 50%">Achievement</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="badge bg-dark">2024</span></td>
+                                        <td>Pierre Agostini, Ferenc Krausz, Anne L'Huillier</td>
+                                        <td class="text-muted fst-italic">Attosecond light pulses</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="badge bg-dark">2023</span></td>
+                                        <td>Ashkin, Mourou, Strickland</td>
+                                        <td class="text-muted fst-italic">High-intensity lasers</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#chemistryCollapse">
+                        Chemistry
+                    </button>
+                </h2>
+                <div id="chemistryCollapse" class="accordion-collapse collapse" data-bs-parent="#nobelAccordion">
+                    <div class="accordion-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0">
+                                <thead class="table-info text-white">
+                                    <tr>
+                                        <th style="width: 15%">Year</th>
+                                        <th style="width: 35%">Winners</th>
+                                        <th style="width: 50%">Achievement</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="badge bg-primary">2024</span></td>
+                                        <td>Bertozzi, Meldal, Sharpless</td>
+                                        <td class="text-muted fst-italic">Click chemistry</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="badge bg-primary">2023</span></td>
+                                        <td>Arnold, Smith, Winter</td>
+                                        <td class="text-muted fst-italic">Directed evolution</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#medicineCollapse">
+                        Medicine
+                    </button>
+                </h2>
+                <div id="medicineCollapse" class="accordion-collapse collapse" data-bs-parent="#nobelAccordion">
+                    <div class="accordion-body p-0">
+                        <table class="table table-hover mb-0">
+                            <thead class="table-success">
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Winners</th>
+                                    <th>Achievement</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="badge bg-success">2024</span></td>
+                                    <td>Svante Pääbo</td>
+                                    <td class="text-muted fst-italic">Genomes of extinct hominins</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#peaceCollapse">
+                        Peace
+                    </button>
+                </h2>
+                <div id="peaceCollapse" class="accordion-collapse collapse" data-bs-parent="#nobelAccordion">
+                    <div class="accordion-body p-0">
+                        <table class="table table-hover mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Winners</th>
+                                    <th>Achievement</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="badge rounded-pill bg-danger">2024</span></td>
+                                    <td>Narges Mohammadi</td>
+                                    <td class="text-muted fst-italic">Human rights & freedom for women in Iran</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-white pt-5 pb-3" style="background: linear-gradient(135deg, #4A0000, #630000, #800000);">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="fw-bold mb-3 text-uppercase border-bottom border-secondary pb-2">Nobel Prize Portal</h5>
+                    <p class="small text-white-50">
+                        Dedicated to spreading knowledge about the visionaries who have changed the world.
+                        An academic project exploring the history and impact of human excellence.
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3 text-uppercase border-bottom border-secondary pb-2">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50 text-decoration-none small">Home</a></li>
+                        <li><a href="about.html" class="text-white-50 text-decoration-none small">About Us</a></li>
+                        <li><a href="history.html" class="text-white-50 text-decoration-none small">History</a></li>
+                        <li><a href="winners.html" class="text-white-50 text-decoration-none small">Winners</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3 text-uppercase border-bottom border-secondary pb-2">Archive</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="images.html" class="text-white-50 text-decoration-none small">Images</a></li>
+                        <li><a href="videos.html" class="text-white-50 text-decoration-none small">Videos</a></li>
+                        <li><a href="nominations.html" class="text-white-50 text-decoration-none small">Nominations</a>
+                        </li>
+                        <li><a href="sitemap.html" class="text-white-50 text-decoration-none small">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 text-md-end text-lg-start">
+                    <h5 class="fw-bold mb-3 text-uppercase border-bottom border-secondary pb-2">Connect</h5>
+                    <p class="small text-white-50 mb-3">Questions regarding the portal?</p>
+                    <a href="contact.html" class="btn btn-outline-light btn-sm px-4">Contact Team</a>
+                </div>
+            </div>
+            <hr class="mt-4 mb-3 border-secondary">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0 small text-white-50">© 2026 Nobel Prize Portal | Academic Project</p>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

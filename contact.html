@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Husma Collection| contactForm</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="icon" href="./assets/images/Elegant husmA COLLECTION logo design.png" type="image/icon">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm"
+    style="background: linear-gradient(135deg, #4A0000, #630000, #800000);">
+    <div class="container-fluid px-lg-5">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="./assets/images/Elegant husmA COLLECTION logo design.png" alt="Logo" class="d-inline-block align-top" style="height: 50px;">
+        <span class="fw-normal fs-4">Husma Collection</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navContent"
+        aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item px-2">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+         <li class="nav-item px-2">
+            <a class="nav-link" href="service.html">service</a>
+          </li>
+         
+         <li class="nav-item px-2">
+            <a class="nav-link" href="images.html">Image</a>
+          </li>
+         
+          <li class="nav-item px-2">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-section pt-4 text-center">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Get In Touch</h1>
+      <p class="lead text-muted">Have questions about Nobel history or laureates? Reach out to us.</p>
+    </div>
+  </header>
+
+  <section class="container my-5">
+    <div class="row g-5 align-items-stretch">
+      <div class="col-lg-6">
+        <div class="card shadow-sm border-0 p-4 h-100">
+          <h3 class="mb-4">Send us a Message</h3>
+          <form id="contactForm" action="https://formspree.io/f/mjgeadgg" method="POST">
+            <div class="mb-3">
+              <label for="userName" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="userName" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+              <label for="userEmail" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="userEmail" name="email" placeholder="name@example.com"
+                required>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <select class="form-select" id="subject" name="subject">
+                <option value="General Inquiry" selected>General Inquiry</option>
+                <option value="Nobel History Query">Nobel History Query</option>
+                <option value="Nominations Info">Nominations Info</option>
+                <option value="Technical Support">Technical Support</option>
+                <option value="Feedback">Feedback</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" placeholder="How can we help you?"
+                required></textarea>
+            </div>
+            <button type="submit" style="background: linear-gradient(135deg, #4A0000, #630000, #800000);"
+              class="btn text-white w-100">Submit Message</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="h-100 rounded shadow-sm overflow-hidden">
+          <iframe class="w-100 h-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.797833069606!2d67.04237307377763!3d24.938956142115064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f3daae54d55%3A0x5dae2a3a4b71f12a!2sAptech%20Learning%20North%20Nazimabad%20II%20Center!5e0!3m2!1sen!2s!4v1771180324160!5m2!1sen!2s"
+            style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-white pt-5 pb-3" style="background: linear-gradient(135deg, #4A0000, #630000, #800000);">
+    <div class="container">
+      <div class="row g-4">
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="fw-bold mb-3 text-uppercase border-bottom border-secondary pb-2">Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white-50 text-decoration-none small">Home</a></li>
+            <li><a href="about.html" class="text-white-50 text-decoration-none small">About Us</a></li>
+             <li><a href="service.html" class="text-white-50 text-decoration-none small">Service</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="fw-bold mb-3 text-uppercase border-bottom border-secondary pb-2">Archive</h5>
+          <ul class="list-unstyled">
+            <li><a href="images.html" class="text-white-50 text-decoration-none small">Images</a></li>
+            
+      
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 text-md-end text-lg-start">
+          <h5 class="fw-bold mb-3 text-uppercase border-bottom border-secondary pb-2">Connect</h5>
+          <p class="small text-white-50 mb-3">Questions regarding the portal?</p>
+          <a href="contact.html" class="btn btn-outline-light btn-sm px-4">Contact Team</a>
+        </div>
+      </div>
+      <hr class="mt-4 mb-3 border-secondary">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-0 small text-white-50">husma_collection_284@gmail.com</p>
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

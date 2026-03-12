@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nominations | Nobel Prize Portal</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/images/logo.png" type="image/icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background: linear-gradient(135deg, #4A0000, #630000, #800000);">
+        <div class="container-fluid px-lg-5">
+
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/images/logo.png" alt="Logo" class="d-inline-block align-top" style="height: 50px;">
+                <span class="fw-normal fs-4">Nobel Prize</span>
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navContent"
+                aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item px-2">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown px-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="nobelDrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Nobel Prize
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark border-0 shadow" aria-labelledby="nobelDrop">
+                            <li><a class="dropdown-item" href="history.html">History</a></li>
+                            <li><a class="dropdown-item" href="winners.html">Winners</a></li>
+                            <li><a class="dropdown-item active" href="nominations.html">Nominations</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown px-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="galleryDrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Gallery
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark border-0 shadow" aria-labelledby="galleryDrop">
+                            <li><a class="dropdown-item" href="images.html">Images</a></li>
+                            <li><a class="dropdown-item" href="videos.html">Videos</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <header class="text-center py-5 mb-5 text-white rounded-3 shadow" style="background: linear-gradient(135deg, #4A0000, #630000, #800000);">
+            <h1 class="display-3 fw-bold">The Path to the Nobel</h1>
+            <p class="lead px-4">An in-depth guide to the world's most exclusive selection process.</p>
+        </header>
+
+        <section class="row mb-5 text-center">
+            <div class="col-md-6 border-end">
+                <h4 class="text-primary fw-bold">Science & Literature</h4>
+                <p class="text-muted">Strictly <strong>by invitation only</strong>. Forms are sent to specific scholars
+                    and institutions globally.</p>
+            </div>
+            <div class="col-md-6">
+                <h4 class="text-success fw-bold">The Peace Prize</h4>
+                <p class="text-muted"><strong>Open eligibility</strong> for qualified nominators. No invitation is
+                    required to submit a candidate.</p>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="mb-4">How to Achieve a Nomination (By Category)</h2>
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-light">
+                    <ul class="nav nav-pills card-header-pills" id="nobelTabs" role="tablist">
+                        <li class="nav-item"><button class="nav-link active" data-bs-toggle="pill"
+                                data-bs-target="#physics">Science & Econ</button></li>
+                        <li class="nav-item"><button class="nav-link" data-bs-toggle="pill"
+                                data-bs-target="#peace">Peace</button></li>
+                        <li class="nav-item"><button class="nav-link" data-bs-toggle="pill"
+                                data-bs-target="#literature">Literature</button></li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="physics">
+                            <h5>Physics, Chemistry, Medicine & Economics</h5>
+                            <p>To be nominated in these fields, your work must fundamentally change the understanding of
+                                the universe or human life.</p>
+                            <ul>
+                                <li><strong>Who can nominate?</strong> Only those invited by the Nobel Committee. This
+                                    includes 3,000 specially selected professors, previous Laureates, and members of the
+                                    Royal Swedish Academy of Sciences.</li>
+                                <li><strong>Achievement Level:</strong> Typically requires a discovery that has "stood
+                                    the test of time" (often 20+ years of verification).</li>
+                                <li><strong>Limit:</strong> Maximum of 3 people can share a prize.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="peace">
+                            <h5>The Nobel Peace Prize</h5>
+                            <p>Unique because it can be awarded to <strong>individuals or organizations</strong>.</p>
+                            <ul>
+                                <li><strong>Who can nominate?</strong> Any person meeting these criteria:
+                                    <ul>
+                                        <li>Members of national governments or parliaments.</li>
+                                        <li>University professors of History, Social Science, Law, or Philosophy.</li>
+                                        <li>Former Peace Prize Laureates.</li>
+                                        <li>Current/former members of the Norwegian Nobel Committee.</li>
+                                    </ul>
+                                </li>
+                                <li><strong>The "Achieve" Factor:</strong> Focus on "fraternity between nations,"
+                                    "abolition of standing armies," or "promotion of peace congresses."</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="literature">
+                            <h5>The Literature Prize</h5>
+                            <p>Awarded for a cumulative body of work rather than a single book.</p>
+                            <ul>
+                                <li><strong>Who can nominate?</strong> Professors of literature/linguistics, presidents
+                                    of national writers' societies, and members of the Swedish Academy.</li>
+                                <li><strong>The "Achieve" Factor:</strong> Production of "the most outstanding work in
+                                    an ideal direction."</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="text-center mb-5">The 12-Month Selection Cycle</h2>
+            <div class="row text-center g-4">
+                <div class="col-md-3">
+                    <div class="p-4 bg-light border-top border-4 border-info styledCard">
+                        <h6>September - January</h6>
+                        <p class="small"><strong>Invitation Phase:</strong> Nominations are collected. Deadline is Jan
+                            31.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-4 bg-light border-top border-4 border-warning styledCard">
+                        <h6>February - August</h6>
+                        <p class="small"><strong>The Sifting:</strong> Committees and experts review hundreds of
+                            nominees to create a "Short List."</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-4 bg-light border-top border-4 border-success styledCard">
+                        <h6>October</h6>
+                        <p class="small"><strong>Selection:</strong> Awarding institutions vote. Winners are announced
+                            globally.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-4 bg-light border-top border-4 border-primary styledCard">
+                        <h6>December 10</h6>
+                        <p class="small"><strong>Ceremony:</strong> Laureates receive medals in Stockholm (and Oslo for
+                            Peace).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-white p-5 rounded-3 shadow" style="background: linear-gradient(135deg, #4A0000, #630000, #800000);">
+            <h3>Strict Statutes & Restrictions</h3>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h5 class="text-warning">Self-Nomination</h5>
+                    <p class="small">If you nominate yourself, you are <strong>automatically disqualified</strong>. The
+                        Nobel Committee ignores all such entries.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-warning">Posthumous Rules</h5>
+                    <p class="small">A person cannot be nominated after they have passed away. However, if they die
+                        <em>after</em> the announcement, the prize is still awarded.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-warning">The 50-Year Secret</h5>
+                    <p class="small">The name of a nominee is never released. It remains locked in the archives for
+                        exactly 50 years before historians can access it.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="text-white pt-5 pb-3" style="background: linear-gradient(135deg, #4A0000, #630000, #800000);">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="fw-bold mb-3 text-uppercase border-bottom border-secondary pb-2">Nobel Prize Portal</h5>
+                    <p class="small text-white-50">
+                        Dedicated to spreading knowledge about the visionaries who have changed the world.
+                        An academic project exploring the history and impact of human excellence.
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3 text-uppercase border-bottom border-secondary pb-2">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50 text-decoration-none small">Home</a></li>
+                        <li><a href="about.html" class="text-white-50 text-decoration-none small">About Us</a></li>
+                        <li><a href="history.html" class="text-white-50 text-decoration-none small">History</a></li>
+                        <li><a href="winners.html" class="text-white-50 text-decoration-none small">Winners</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3 text-uppercase border-bottom border-secondary pb-2">Archive</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="images.html" class="text-white-50 text-decoration-none small">Images</a></li>
+                        <li><a href="videos.html" class="text-white-50 text-decoration-none small">Videos</a></li>
+                        <li><a href="nominations.html" class="text-white-50 text-decoration-none small">Nominations</a>
+                        </li>
+                        <li><a href="sitemap.html" class="text-white-50 text-decoration-none small">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 text-md-end text-lg-start">
+                    <h5 class="fw-bold mb-3 text-uppercase border-bottom border-secondary pb-2">Connect</h5>
+                    <p class="small text-white-50 mb-3">Questions regarding the portal?</p>
+                    <a href="contact.html" class="btn btn-outline-light btn-sm px-4">Contact Team</a>
+                </div>
+            </div>
+            <hr class="mt-4 mb-3 border-secondary">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0 small text-white-50">© 2026 Nobel Prize Portal | Academic Project</p>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
